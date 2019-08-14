@@ -27,7 +27,8 @@
 	padding-left: 15px;
 	padding-right: 15px;
 	grid-template-columns: repeat(12, 1fr);
-	grid-template-rows: 115px 876px auto auto;
+	// grid-template-rows: 115px 876px auto auto;
+	grid-template-rows: 115px 700px auto auto;
 	grid-column-gap: 30px;
 	grid-template-areas:
 		"h h h h h h h h h h h h"
@@ -283,33 +284,57 @@ nav > ul li a:active {
 .iphonePreview {
 	grid-area: p;
 	background-image: url($device-color);
-	background-size: 400px auto;
+	background-size: 300px auto;
 	background-repeat: no-repeat;
-	margin-top: 68px;
+	margin-top: 25px;
 }
 
 .iphoneScreen {
-	width: 349px;
+	width: 260px;
 	border-radius: 12%/6%;
 	// -webkit-clip-path: url(#screenMask);
-	// clip-path: url(#screenMask);
-	margin-left: 26px;
-	margin-top: 23px;
-}
-
-.videoContainer {
-	width: 349px;
-	height: 755px;
-	-webkit-clip-path: url(#screenMask);
 	clip-path: url(#screenMask);
-	margin-left: 26px;
-	margin-top: 23px;
+	margin-left: 20px;
+	margin-top: 19px;
 }
 
-.videoContainer > video {
-	width: 349px;
-	height: 755px;
-}
+// .videoContainer {
+// 	width: 260px;
+// 	height: 550px;
+// 	border-radius: 12%/6%;
+// 	// -webkit-clip-path: url(#screenMask);
+// 	// clip-path: url(#screenMask);
+// 	margin-left: 15px;
+// 	margin-top: 22px;
+// }
+//
+// .videoContainer > video {
+// 	width: 260px;
+// 	height: 550px;
+// }
+
+// .iphoneScreen {
+// 	width: 349px;
+// 	border-radius: 12%/6%;
+// 	// -webkit-clip-path: url(#screenMask);
+// 	// clip-path: url(#screenMask);
+// 	margin-left: 26px;
+// 	margin-top: 23px;
+// }
+//
+// .videoContainer {
+// 	width: 349px;
+// 	height: 755px;
+// 	-webkit-clip-path: url(#screenMask);
+// 	clip-path: url(#screenMask);
+// 	margin-left: 26px;
+// 	margin-top: 23px;
+// }
+//
+// .videoContainer > video {
+// 	width: 349px;
+// 	height: 755px;
+// }
 
 @media only screen and (max-width: 1070px) {
 
@@ -368,9 +393,27 @@ nav > ul li a:active {
 		width: 226px;
 		height: 488px;
 	}
-
 }
 
+
+.youtubeWrapper {
+	display: flex;
+  justify-content: center;
+	margin-top: 0px;
+	width: calc(100%);
+}
+
+
+// youtube
+
+.youtube {
+	width: calc(100%)
+	// position: absolute;
+	// margin: auto;
+	// top: 50%;
+	// left: 50%;
+	// transform: translate(-50%, -50%);
+}
 
 // Feature List
 
@@ -488,12 +531,12 @@ footer {
 	line-height: 1.5;
 	width: 100%;
 	text-align: center;
-	padding-top: 70px;
-	padding-bottom: 70px;
+	padding-top: 50px;
+	padding-bottom: 30px;
 }
 
 .footerIcons {
-	padding-bottom: 70px;
+	padding-bottom: 50px;
 	display: flex;
 }
 
