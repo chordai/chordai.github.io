@@ -23,7 +23,7 @@ enable_smart_app_banner                   : true                                
 your_name                                 : Nomad AI OU
 your_link                                 : https://www.nomadai.org
 your_city                                 :
-email_address                             : 
+email_address                             :
 facebook_username                         :
 instagram_username                        :
 twitter_username                          :
@@ -133,4 +133,4 @@ exclude:
   - README.md
   - CNAME
 
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
