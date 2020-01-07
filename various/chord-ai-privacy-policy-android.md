@@ -1,5 +1,4 @@
 ---
-layout: page
 title: Privacy policy for the Chord AI App
 permalink: /android/privacy-policy
 ---
