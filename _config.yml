@@ -4,7 +4,7 @@ page_title                                : Chord AI app                        
 # App Info
 ios_app_id                                : 1446177109
 
-appstore_link                             : https://apps.apple.com/us/app/chord-ai/id1446177109    # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+appstore_link                             : https://apps.apple.com/app/id1446177109    # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
@@ -12,8 +12,7 @@ presskit_download_link                    :                                     
 app_icon                                  : assets/logo_1024.png                    # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
 app_name                                  : Chord AI                                       # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
 app_price                                 : Instant chord recognition
-app_description                           : The new easiest way to get chords for any song. <br />
-                                            Video below!
+app_description                           : The new easiest way to get chords for any song.
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
